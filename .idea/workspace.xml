@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36802817-e27b-424e-b49d-2ea0ef41b824" name="Default Changelist" comment="ci: add gitlab config files">
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="36802817-e27b-424e-b49d-2ea0ef41b824" name="Default Changelist" comment="feat: add some test">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +30,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1qTo4nHRGP5XXv3NBx4MP3u8Hjr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="gitflow.GitflowConfigurable" />
   </component>
@@ -81,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617155619291</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add some test">
+      <created>1617155949657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617155949657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,21 +116,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test: add gitlab test" />
     <MESSAGE value="ci: add gitlab config files" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: add gitlab config files" />
+    <MESSAGE value="feat: add some test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add some test" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="SettingsEditor" timestamp="1617112970158">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1617112970158" />
-    <state width="746" height="596" key="SwitcherDM" timestamp="1617155916332">
+    <state width="746" height="596" key="SwitcherDM" timestamp="1617155969174">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="746" height="596" key="SwitcherDM/0.0.1368.912@0.0.1368.912" timestamp="1617155916332" />
-    <state x="77" y="58" key="Vcs.Push.Dialog.v2" timestamp="1617118945665">
+    <state width="746" height="596" key="SwitcherDM/0.0.1368.912@0.0.1368.912" timestamp="1617155969174" />
+    <state x="77" y="58" key="Vcs.Push.Dialog.v2" timestamp="1617155988079">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="77" y="58" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1617118945665" />
+    <state x="77" y="58" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1617155988079" />
     <state x="177" y="9" width="1009" height="1470" key="search.everywhere.popup" timestamp="1617113064394">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
