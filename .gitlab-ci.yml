@@ -1,6 +1,11 @@
-# This file is a template, and might need editing before it works on your project.
-image: hub-mirror.c.163.com/library/golang:latest
+# docker image name
+image: golang
 
+# some variables
+variables:
+  REPO_NAME: debug
+
+# go mod cache
 .go-cache:
   variables:
     GOPATH: $CI_PROJECT_DIR/.go
@@ -8,42 +13,42 @@ image: hub-mirror.c.163.com/library/golang:latest
     paths:
       - .go/pkg/mod/
 
-variables:
-  OUTPUT_NAME: helloworld-app
-
-stages:
-  - lint
-  - build
-  - deploy
-
+# some settings
 before_script:
-  - echo "before_script"
-  - git version
-  - go env -w GOPRIVATE=code.haiziwang.com
-  - mkdir -p .go
-  - go version
   - go env -w GO111MODULE=on
   - go env -w GOPROXY="https://goproxy.io,direct"
 
-golangci-lint:
-  image: golangci/golangci-lint:v1.27.0
-  stage: lint
-  extends: .go-cache
-  allow_failure: true
-  script:
-    - golangci-lint run -v
+stages:
+  - test
+  - build
+  - deploy
 
+# test branch
+format:
+  stage: test
+  tags:
+    - edte
+  script:
+    - cd $GOPATH/src/$REPO_NAME
+    - go fmt $(go list ./... | grep -v /vendor/)
+    - go vet $(go list ./... | grep -v /vendor/)
+
+# build branch
 compile:
   stage: build
   extends: .go-cache
   script:
-    - go mod download
-    - go build -race -o $OUTPUT_NAME
+    - go mod tidy
+    - go build -race -o $REPO_NAME
   artifacts:
     paths:
-      - $OUTPUT_NAME
+      - $REPO_NAME
 
-deploy-dev:
+# deploy branch
+docker:
   stage: deploy
+  when: manual
+  tags:
+    - edte
   script:
-    - echo "deploy dev environment"
+    ./app

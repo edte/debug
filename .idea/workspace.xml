@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36802817-e27b-424e-b49d-2ea0ef41b824" name="Default Changelist" comment="ci: add gitlab config files">
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617117677469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ci: add gitlab config files">
+      <created>1617118938528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617118938528</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +91,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test: add gitlab test" />
@@ -94,14 +103,14 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1617112970158" />
-    <state width="746" height="596" key="SwitcherDM" timestamp="1617117590213">
+    <state width="746" height="596" key="SwitcherDM" timestamp="1617118930691">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="746" height="596" key="SwitcherDM/0.0.1368.912@0.0.1368.912" timestamp="1617117590213" />
-    <state x="77" y="58" key="Vcs.Push.Dialog.v2" timestamp="1617117700399">
+    <state width="746" height="596" key="SwitcherDM/0.0.1368.912@0.0.1368.912" timestamp="1617118930691" />
+    <state x="77" y="58" key="Vcs.Push.Dialog.v2" timestamp="1617118945665">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="77" y="58" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1617117700399" />
+    <state x="77" y="58" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1617118945665" />
     <state x="177" y="9" width="1009" height="1470" key="search.everywhere.popup" timestamp="1617113064394">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
