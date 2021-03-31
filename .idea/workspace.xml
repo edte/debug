@@ -11,8 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36802817-e27b-424e-b49d-2ea0ef41b824" name="Default Changelist" comment="ci: add gitlab config files">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617118938528</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ci: add gitlab config files">
+      <created>1617155619291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617155619291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,10 +109,10 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1617112970158" />
-    <state width="746" height="596" key="SwitcherDM" timestamp="1617118930691">
+    <state width="746" height="596" key="SwitcherDM" timestamp="1617155916332">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="746" height="596" key="SwitcherDM/0.0.1368.912@0.0.1368.912" timestamp="1617118930691" />
+    <state width="746" height="596" key="SwitcherDM/0.0.1368.912@0.0.1368.912" timestamp="1617155916332" />
     <state x="77" y="58" key="Vcs.Push.Dialog.v2" timestamp="1617118945665">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
